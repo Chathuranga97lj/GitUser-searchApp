@@ -37,11 +37,17 @@ class UI {
         // clear any remaining  alerts
         this.clearAlert();
         
+        // create div
         const div = document.createElement('div');
+        // add class to div
         div.className = className;
+        // add text
         div.appendChild(document.createTextNode(message));
+        // add parent
         const container = document.querySelector('.searchContainer');
+        // get search box
         const search = document.querySelector('.search');
+        // insert alert
         container.insertBefore(div, search);
 
         // time out after 3 sec
