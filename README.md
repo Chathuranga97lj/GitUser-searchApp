@@ -11,3 +11,6 @@ https://github.com/settings/applications/new
 
 - you can add direct keys for line 24 and 27
 - you can create two text files named client_ID.txt and client_Secret.txt, then add inside the keys those files with '' like '12345'
+
+## Run
+run using vscode live server
