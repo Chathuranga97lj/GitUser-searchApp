@@ -1,6 +1,7 @@
 class Github{
     constructor() {
         // ------ this is for hiding git keys --------
+        // if you use direct key under client id and secret please comment this code block
         const id = null;
         const secret = null;
         const xhr = new XMLHttpRequest();
@@ -19,10 +20,10 @@ class Github{
         }
         // ----------------------------------------------
 
-        // use your git client id here
+        // use your git client id here - replace id variable to key string with '' like '2343254523'
         this.client_id = id;  
 
-        // use your git client secret key here   
+        // use your git client secret key here - replace secret variable to key with ''  like '2343254523' 
         this.client_secret = secret;
 
         this.repos_count = 5;
